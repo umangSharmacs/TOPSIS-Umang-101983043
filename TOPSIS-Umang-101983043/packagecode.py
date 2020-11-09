@@ -12,7 +12,6 @@ def topsis(inp_file, inp_weights,inp_impacts,resultFileName):
     except:
         logging.warning("File not found. Please try again. File: " + inp_file)
         return
-    print(df)
 
     for i in impacts:
         if i!='+' and i!='-':
