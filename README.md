@@ -5,7 +5,7 @@ TOPSIS-Umang-101983043 is a python module for implementing Multiple Criteria Dec
 ## Description
 
 The module is essentially a function in which you enter a CSV file containing the models you wish to choose from, as well as the weights and impacts. 
-The module will output your csv file, along with 2 more columns, one being the TOPSIS score, and the other being the rank of each model. 
+The module will output your csv file, along with 2 more columns, one being the TOPSIS score, and the other being the rank of each model as well as create a CSV file with your result. 
 
 ## Installation
 
@@ -21,9 +21,9 @@ pip install TOPSIS-Umang-101983043
 
 module_name=__import__('TOPSIS-Umang-101983043')
 
-module_name.topsis(file_name,weights,impacts,resultant_filename)
+module_name.topsis(path\file_name,weights,impacts,resultant_filename)
 ```
-The first attribute is the CSV file you wish to upload which will contain all the models. 
+The first attribute is a string containning the path to the CSV file you wish to upload which will contain all the models.   
 Requirements for CSV file:
 1. It should have more than 3 columns
 2. First column is the object/variable name
