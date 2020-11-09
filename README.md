@@ -20,9 +20,8 @@ pip install TOPSIS-Umang-101983043
 ```python
 
 module_name=__import__('TOPSIS-Umang-101983043')
-from module_name import topsis
 
-topsis(file_name,weights,impacts,resultant_filename)
+module_name.topsis(file_name,weights,impacts,resultant_filename)
 ```
 The first attribute is the CSV file you wish to upload which will contain all the models. 
 Requirements for CSV file:
