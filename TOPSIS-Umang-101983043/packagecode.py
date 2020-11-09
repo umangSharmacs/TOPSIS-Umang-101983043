@@ -72,6 +72,6 @@ def topsis(inp_file, inp_weights,inp_impacts,resultFileName):
         final["Rank"]=final["Rank"].replace(i,'{:0g}'.format(i))
     print(final)
     final.to_csv(f"{resultFileName}.csv",index=False)
-
+    print("CSV file has been created in your working directory.")
 
     
