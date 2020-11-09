@@ -7,8 +7,8 @@ setup(
   description = 'A simple python program to implement Multi Decision Criteria using TOPSIS',   # Give a short description about your library
   author = 'Umang Sharma',                   # Type in your name
   author_email = 'umangsharma.cs@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/umangSharmacs/topsis',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/umangSharmacs/topsis/archive/v_011.tar.gz',    # I explain this later on
+  url = 'https://github.com/umangSharmacs/TOPSIS-Umang-101983043',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/umangSharmacs/TOPSIS-Umang-101983043/archive/v_01.tar.gz',    # I explain this later on
   keywords = ['SIMPLE', 'CONCISE', 'TOPSIS', 'MULTI DECISION CRITERIA', 'DATASCIENCE'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
