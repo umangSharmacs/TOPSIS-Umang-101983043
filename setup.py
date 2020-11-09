@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'TOPSIS-Umang-101983043',         # How you named your package folder (MyLib)
   packages = ['TOPSIS-Umang-101983043'],   # Chose the same as "name"
-  version = '0.11',      # Start with a small number and increase it with every change you make
+  version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple python program to implement Multi Decision Criteria using TOPSIS',   # Give a short description about your library
   author = 'Umang Sharma',                   # Type in your name
